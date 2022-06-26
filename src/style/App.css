@@ -1,0 +1,52 @@
+.input__text {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.input__text input {
+  width: 80%;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+}
+.input__text button {
+  width: 20%;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+.list__service {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+.list__service li {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+.list__service li > div {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.list__service li > button {
+  border: none;
+  background-color: #fff;
+  font-size: 2rem;
+  color: #d43f3a;
+}
+.btn_delall {
+  padding: 1rem 2rem;
+  border: 1px solid #d43f3a;
+  margin: 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  background-color: #d9534f;
+  color: #fff;
+}
